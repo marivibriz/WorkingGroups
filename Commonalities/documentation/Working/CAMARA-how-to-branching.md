@@ -5,12 +5,12 @@
 This short document aims to aid Camara collaborators with less git or GitHub experience. Since the official procedure for introducing changes in Camara relies on git branches and pull requests, the tutorial will focus on these subjects.
 If you need a general basic and friendly introduction to git and GitHub, you are encouraged to watch the ["GitHub for poets"](https://www.youtube.com/watch?v=BCQHnlnPusY) series.
 
-<br>
+
 ## About branches
 
 Branches allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of our repository. If you need a friendly video introduction to git branching, please try [part two of "GitHub for Poets"](https://www.youtube.com/watch?v=oPpnCh7InLY) on Youtube, you may also read GitHub's "[Creating and deleting branches within your repository](https://docs.github.com/en/articles/creating-and-deleting-branches-within-your-repository)" for a deep dive.
 
-<br>
+
 ### Walkthrough: Switching between Camara branches
 
 1. Click the drop down at the top of the file list that says **main**.![Branch menu](Camara-how-to/CHT-branch.jpg)
@@ -32,9 +32,10 @@ All contributions (e.g. initial files, tools, templates) to CAMARA have to be ma
 In the WIP branch the real work takes place. If artifacts get ready for review these have to be copied from the WIP branch to the RTR branch and removed from WIP.
 
 In the RTR branch the review and inclusion of findings takes place. If artifacts are accepted by the Sub Project or Working Group these have to be moved/merged to the main branch.
-<br>
+
+
 ## About pull requests
-<br>
+
 For adding modifications to a branch in Camara, a pull request has to be initiated. When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show diffs, or differences, of the content from both branches. The changes, additions, and subtractions are shown in different colors.
 
 Anyone with read access to a repository can create a pull request. You can specify which branch you'd like to merge your changes into when you create your pull request.
@@ -46,9 +47,9 @@ For more information on PRs (pull requests) watch the third episode of ["GitHub
 * [Propose changes](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests "Propose changes")
 * [Collaborate with pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests "Collaborate with pull requests")
 
-<br>
+
 ### Creating a pull request in Camara
-<br>
+
 [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to propose and collaborate on changes to a repository. These changes are proposed in a *branch*, which ensures that the default branch only contains finished and approved work.
 
 Please name such a new branch in Camara with a standardized naming: *target-branch\_target-subject\_user*. This will improve the readability when multiple pull requests (PRs) are in progress and, therefore, the number of branches increases.
@@ -81,7 +82,7 @@ Similarly, it is possible to create a pull request if there is already a branch 
 Camara workgroup moderators can now review your edits and merge the PR into the target branch. Comments may be made, both in case of merging as in the case of closing a request without incorporating changes into one of the branches.
 ![closePR](Camara-how-to/CHT-closePR.jpg)
 
-<br>
+
 **Tip**:
 
 * Using the compare view, you can set up comparisons across any timeframe. For more information, see "[Comparing commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/viewing-and-comparing-commits/comparing-commits)."
